@@ -48,7 +48,7 @@ Why:
 
  
 
-## 2\. Prompt Normalization (IMPORTANT)
+## 2\. Prompt Normalization 
 
 Template variables like:
 
@@ -68,7 +68,21 @@ This ensures:
 * Similar prompts with different variable names cluster together
 * Prevents embedding noise from template placeholders
 
- 
+ Another choice is to use Dual Embedding Strategy
+
+Embed BOTH:
+
+* Raw prompt
+* Normalized prompt
+
+Then combine:
+
+final_embedding = 0.7 * normalized + 0.3 * raw
+
+This preserves:
+
+*Structure similarity
+* Content nuance
 
 ## 3\. Similarity Metric
 
