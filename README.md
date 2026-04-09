@@ -2,7 +2,6 @@
 
 A production-style FastAPI service for **semantic search, prompt deduplication, and clustering** using embedding models and vector search (FAISS).
  
-
 # &#x20;Features
 
 * Generate embeddings for prompt templates
