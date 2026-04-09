@@ -121,7 +121,7 @@ This makes the system:
 ## 1\. Clone \& Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/meizhuliu/prompt-similarity-service.git
 cd prompt-similarity-service
 pip install -r requirements.txt
 ```
