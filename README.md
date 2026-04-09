@@ -19,10 +19,7 @@ A production-style FastAPI service for **semantic search, prompt deduplication, 
 
 ```
 Prompt → Embedding → FAISS ANN → Top-K neighbors → Graph edges → Connected Components → Clusters
-```
-```
-Client → FastAPI → Service Layer → Vector Store (FAISS) → Embedding Model
-```
+``` 
 
 ### Core Components
 
