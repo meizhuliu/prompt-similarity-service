@@ -68,9 +68,8 @@ This ensures:
 * Similar prompts with different variable names cluster together
 * Prevents embedding noise from template placeholders
 
- Another choice is to use Dual Embedding Strategy
-
-Embed BOTH:
+ 
+ Another choice is to use Dual Embedding Strategy (furture work) which embeds BOTH:
 
 * Raw prompt
 * Normalized prompt
@@ -112,7 +111,7 @@ This avoids:
 
 * Pairwise manual inspection
 * O(n²) runtime at scale (can be optimized later with FAISS filtering)
- 
+
 
 ## 6\. Service Separation
 
